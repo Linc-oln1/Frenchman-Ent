@@ -1,0 +1,86 @@
+/*--About--*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 25px 20px;
+    margin-top: 15px;
+}
+
+.header {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.two-colum-about figure {
+    width: 52%;
+    float: left;
+    border: 1px solid #d1d1d1;
+    padding: 40px
+}
+
+.two-colum-about figure img {
+    display: block;
+    width: 100%
+}
+
+.two-colum-about article {
+    width: 48%;
+    float: left;
+    padding: 0 0 40px 69px
+}
+
+.two-colum-about article .heading {
+    text-transform: uppercase;
+    font-size: 39px;
+    margin-bottom: 48px;
+    color: #2b2b2b;
+    position: relative;
+    font-weight: 700;
+    line-height: 42px;
+    margin-top: 45px
+}
+
+.two-colum-about article .heading::before {
+    position: absolute;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: #d3191f;
+    display: block;
+    content: "";
+    top: 0;
+    z-index: 6
+}
+
+.two-colum-about article .heading::after {
+    position: absolute;
+    left: 0;
+    width: 80%;
+    height: 1px;
+    background: #c3c3c3;
+    display: block;
+    content: "";
+    top: 50%
+}
+
+.two-colum-about article .heading span {
+    padding-left: 20px;
+    padding-right: 4px;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    z-index: 5
+}
+
+.two-colum-about article ul.bullet-list li {
+    font-size: inherit;
+    padding-bottom: 25px
+}

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Sign In</title>
+    <link rel="stylesheet" type="text/css" href="sign up.css">
+    <script src="https://kit.fontawesome.com/bc6a284bab.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--    <div class="signup">
+        <h1> FRANCHMAN ENTERPRISE</h1>
+    </div>
+
+
+    <form>
+        <table>
+            <th>
+                <h1 class="h1-form">
+                    REGISTRATION FORM
+                </h1>
+
+            </th>
+            <div>
+                <tr>
+                    <td>
+                        <label for="firstname"> First Name</label>
+                        <input type="text" class="firstname-type" name="firstname" placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <label for="secondname"> Second Name</label>
+                        <input type="text" name="secondname" placeholder="Second Name" required>
+                    </td>
+
+                </tr>
+            </div>
+
+            <div class="hjh">
+                <tr>
+                    <td>
+                        <label for="email">Email Address</label>
+                        <input type="text" class="email-type" name="email" placeholder="Email Address" required>
+                    </td>
+                    <td><label for="re-email">Re-type Email</label>
+                        <input type="text" name="re-email" placeholder="Corfirm Email Address" required>
+                    </td>
+                    <div>
+                </tr>
+                </div>
+                <tr>
+                    <td>
+                        <label for="phone"> Phone Number</label>
+                        <input type="text" class="phonenumber-type" name="phone" placeholder="phone number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button type="submit" class="submit-type"> submit</button>
+                    </td>
+                </tr>
+        </table>
+    </form>
+
+
+    <div class="signup-information">
+        <div class="signup1">
+            <li> largest Dealership of Cars</li>
+            Largest car delership information
+        </div>
+        <div class="signup2">
+            <li>We Offer Lower Cars Prices</li>
+            offered prices information
+        </div>
+        <div class="signup3">
+            <li> Multipoint Safety Checks</li>
+            Multipoint safety information
+        </div>
+
+        </ul>
+    </div>
+    <div class="dreamcar">
+        Find Your Dream Car
+        <div>
+            <ul>
+                <li> Pickup truck</li>
+                <li> Coupe</li>
+                <li> Convertible</li>
+
+            </ul>
+        </div>
+    </div>
+-->
+    <div class="wrapper">
+        <nav class="nav">
+            <div class="logo">
+                <p> LOGO</p>
+            </div>
+            <div class="nav-menu">
+                <ul>
+                    <li> <a href="#" class="link active"> Home</a></li>
+                    <li> <a href="#" class="link"> Blogs</a></li>
+                    <li> <a href="#" class="link"> Service</a></li>
+                    <li> <a href="#" class="link">  About Us</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <button class="button" id="Loginbtn" onclick="login()"> Sign In</button>
+                <button class="button" id="ResgisterBtn" onclick="register"> Sign Up</button>
+            </div>
+            <div class="nav-menu-button">
+                <i class="fa-solid fa-bars" onclick="MyMeanFunction()"></i>
+            </div>
+        </nav>
+
+        <!----------------------Form Box------------------------------------>
+        <div class="form-box">
+
+            <!------------------------Registration----------------------------->
+            <div class="register-container" id="register">
+                <div class="top">
+
+                    <header> Sign Up</header>
+                </div>
+                <div class="two-forms">
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="First Name">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="text" class="input-field" placeholder="Last Name">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                </div>
+                <div class="input-box">
+                    <input type="text" class="input-field" placeholder="Email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div class="input-box">
+                    <input type="password" class="input-field" placeholder="Password">
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="input-box">
+                    <input type="submit" class="submit" value="Register">
+                </div>
+                <div class="two-col">
+                    <div class="one">
+                        <input type="checkbox" id="register-check">
+                        <label for="register-check">Remember me</label>
+                    </div>
+                    <div class="two">
+                        <label> <a href="#" >Terms and Condition</a></label>
+                    </div>
+                </div>
+                <span>Have an account? <a href="#" onclick="login()">Login</a></span>
+            </div>
+
+
+            <script>
+                var a = Do.document.GetElementById("loginbtn")
+                var b = Do.document.GetElementById("registerbtn")
+                var x = Do.document.GetElementById("login")
+                var y = Do.document.GetElementById("register")
+
+                function login() {
+                    x.style.left = "4px"
+                    y.style.right = "-520px"
+
+                }
+
+                function register() {
+                    x.style.left = "-510px"
+                    y.style.right = "5px"
+                }
+            </script>
+</body>
+
+</html>

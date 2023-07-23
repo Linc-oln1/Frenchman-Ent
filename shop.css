@@ -1,0 +1,266 @@
+/*
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    background-color: black;
+}
+
+.pic-card {
+    display: inline-flex;
+}
+
+.pic-2 {
+    flex-grow: 10;
+    width: 205px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding-top: 0;
+}
+
+.pic-3 {
+    flex-grow: 10;
+    width: 205px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding-top: 0;
+}
+
+.pic-4 {
+    flex-grow: 10;
+    width: 205px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin-left: 50px;
+    padding-top: 0;
+}
+
+.pic-card h2 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}*/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 240px;
+    height: 400px;
+    margin: 15px;
+    border: 2x solid white;
+    border-radius: 15px 15px 15px 15px;
+}
+
+.card:hover {
+    background-color: rgb(11, 85, 182);
+}
+
+.card-image {
+    background-color: aqua;
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+}
+
+.car-1 {
+    background-image: url(old1b.jpg);
+}
+
+.car-2 {
+    background-image: url(jeep-wragler.jpeg);
+}
+
+.car-3 {
+    background-image: url(nissan-car.jpeg);
+}
+
+.text {
+    text-align: center;
+}
+
+.car-4 {
+    background-image: url(taxi.jpeg);
+}
+
+.car-5 {
+    background-image: url(benz-c300.jpeg);
+}
+
+.car-6 {
+    background-image: url(nissan-pickup.jpeg);
+}
+
+.text ul {
+    display: flex;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.text ul li {
+    border: 2px solid green;
+    margin-right: 5px;
+}
+
+.text button {
+    background-color: rgb(146, 87, 9);
+}
+
+.text .color {
+    background-color: green;
+}
+
+.car-7 {
+    background-image: url(toyota-1.jpeg);
+}
+
+.car-8 {
+    background-image: url(toyota-2.jpeg);
+}
+
+.car-9 {
+    background-image: url(toyota-3.jpeg);
+}
+
+.car-10 {
+    background-image: url(toyota-4.jpeg);
+}
+
+.car-11 {
+    background-image: url(car-8.jpeg);
+}
+
+.car-12 {
+    background-image: url(unknown.jpeg);
+}
+
+.car-13 {
+    background-image: url(bmw-1.jpeg);
+}
+
+.car-14 {
+    background-image: url(civic.jpeg);
+}
+
+.car-15 {
+    background-image: url(accord.jpeg);
+}
+
+.car-16 {
+    background-image: url(elantra-1.jpeg);
+}
+
+.car-17 {
+    background-image: url(elantrafront.jpeg);
+}
+
+.car-18 {
+    background-image: url(v8.jpeg);
+}
+
+.car-19 {
+    background-image: url(wrangler.jpeg);
+}
+
+.car-20 {
+    background-image: url(tundra.jpeg);
+}
+
+.car-21 {
+    background-image: url(audi-pic.jpeg);
+}
+
+.car-22 {
+    background-image: url(benz-1.jpeg);
+}
+
+.car-23 {
+    background-image: url(corolla.jpeg);
+}
+
+.car-24 {
+    background-image: url(ford.jpeg);
+}
+
+.car-25 {
+    background-image: url(nissan-car.jpeg);
+}
+
+.car-26 {
+    background-image: url(suzuki.jpeg);
+}
+
+.car-27 {
+    background-image: url(royce.jpeg);
+}
+
+.car-28 {
+    background-image: url(volkswagen1.jpeg);
+}
+
+.car-29 {
+    background-image: url(volkswagen2.jpeg);
+}
+
+.car-31 {
+    background-image: url(auid1.jpeg);
+}
+
+.car-32 {
+    background-image: url(auid2.jpeg);
+}
+
+.car-33 {
+    background-image: url(auid3.jpeg);
+}
+
+.car-34 {
+    background-image: url(kia1.jpeg);
+}
+
+.car-35 {
+    background-image: url(changer.jpeg);
+}
+
+.car-36 {
+    background-image: url(ford-ram.jpeg);
+}
+
+.car-37 {
+    background-image: url(mimi-cooper.jpeg);
+}
+
+.car-38 {
+    background-image: url(cooper.jpeg);
+}
+
+.car-39 {
+    background-image: url(classic.jpeg);
+}
+
+.car-40 {
+    background-image: url(slide_car.jpg);
+}
+
+.car-30 {
+    background-image: url(range-rover.jpeg);
+}
